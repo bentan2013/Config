@@ -1,0 +1,55 @@
+{
+  "WebSearches": [
+    {
+      "Title": "Google",
+      "ActionWord": "g",
+      "IconPath": "Images\\websearch\\google.png",
+      "Url": "https://www.google.com/search?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Wikipedia",
+      "ActionWord": "wiki",
+      "IconPath": "Images\\websearch\\wiki.png",
+      "Url": "http://en.wikipedia.org/wiki/{q}",
+      "Enabled": true
+    },
+    {
+      "Title": "FindIcon",
+      "ActionWord": "findicon",
+      "IconPath": "Images\\websearch\\pictures.png",
+      "Url": "http://findicons.com/search/{q}",
+      "Enabled": true
+    },
+    {
+      "Title": "百度搜索",
+      "ActionWord": "b",
+      "IconPath": "D:\\SOFTWARE\\Wox-1.2.0-beta\\Plugins\\Wox.Plugin.WebSearch\\Images\\web_search.png",
+      "Url": "http://www.baidu.com/s?wd={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "beijing-github",
+      "ActionWord": "gitbj",
+      "IconPath": "",
+      "Url": "https://github.com/Esri-DevCenter-Beijing/{q}",
+      "Enabled": true
+    },
+    {
+      "Title": "github",
+      "ActionWord": "git",
+      "IconPath": "",
+      "Url": "https://github.com{q}",
+      "Enabled": true
+    },
+    {
+      "Title": "devtopia",
+      "ActionWord": "dev",
+      "IconPath": "",
+      "Url": "https://devtopia.esri.com/{q}",
+      "Enabled": true
+    }
+  ],
+  "EnableWebSearchSuggestion": false,
+  "WebSearchSuggestionSource": "Google"
+}
